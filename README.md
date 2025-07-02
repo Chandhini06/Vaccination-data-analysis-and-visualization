@@ -5,19 +5,19 @@ This project analyzes global vaccination data to uncover trends in coverage, dis
 
 **Business Use Cases**
    
-   **- Public Health Strategy:**
+   **Public Health Strategy:**
       - Evaluate vaccination programs across regions and populations.
       - Prioritize areas with low vaccination coverage for focused efforts.
       
-  **- Disease Prevention:**
+  **Disease Prevention:**
       - Identify diseases with high incidence rates despite vaccinations, suggesting areas for improvement.
       - Support policies on booster vaccines or new vaccine introductions.
   
-  **- Resource Allocation:**
+  **Resource Allocation:**
       - Plan targeted resource distribution to regions with low coverage and forecast vaccine demand.
       - Forecast vaccine demand based on current trends for better supply chain management.
   
-  **- Global Health Policy:**
+  **Global Health Policy:**
       - Provide data-driven recommendations for vaccination policies and support governments with evidence on vaccine effectiveness.
 
 **Data Sources**
@@ -32,45 +32,45 @@ This project analyzes global vaccination data to uncover trends in coverage, dis
 
   **1) Data Cleaning**
           
-      - Handling Missing Data: Address incomplete records by imputing missing values or removing them as necessary.
+       Handling Missing Data: Address incomplete records by imputing missing values or removing them as necessary.
           
-      - Standardizing Units: Ensure consistency in measurement units across datasets, such as percentage coverage and reported case numbers.
+       Standardizing Units: Ensure consistency in measurement units across datasets, such as percentage coverage and reported case numbers.
           
-      - Date Formatting: Maintain uniform date formats across tables to facilitate seamless integration and analysis.
+       Date Formatting: Maintain uniform date formats across tables to facilitate seamless integration and analysis.
           
   **2) SQL Database Setup**
           
-      - Table Creation: Store the structured and cleaned data in relational SQL tables, including vaccination data, disease incidence, and antigen details.
+       Table Creation: Store the structured and cleaned data in relational SQL tables, including vaccination data, disease incidence, and antigen details.
           
-      - Data Normalization: Organize data into separate entities (e.g., vaccines, diseases, locations, and year periods) to minimize redundancy and enhance efficiency.
+       Data Normalization: Organize data into separate entities (e.g., vaccines, diseases, locations, and year periods) to minimize redundancy and enhance efficiency.
           
-      - Ensuring Data Integrity: Implement primary and foreign key constraints to maintain referential integrity and data consistency.
+       Ensuring Data Integrity: Implement primary and foreign key constraints to maintain referential integrity and data consistency.
   
   **3) Power BI Integration**
           
-      - Database Connectivity: Connect Power BI to the SQL database using its SQL connector to pull relevant tables for analysis.
+       Database Connectivity: Connect Power BI to the SQL database using its SQL connector to pull relevant tables for analysis.
           
-      - Interactive Dashboard Development: Build dynamic reports with user-friendly filters and slicers for exploratory data analysis.
+       Interactive Dashboard Development: Build dynamic reports with user-friendly filters and slicers for exploratory data analysis.
   
   **4) Data Visualization in Power BI**
           
-      - Build interactive dashboards with filters and slicers for user-friendly exploration of vaccination data.
+       Build interactive dashboards with filters and slicers for user-friendly exploration of vaccination data.
           
-      - Visualize key metrics such as vaccination rates, disease incidence, and antigen coverage over time and across regions.
+       Visualize key metrics such as vaccination rates, disease incidence, and antigen coverage over time and across regions.
           
-      - Using line charts and bar graphs to track vaccination rates and disease trends over time.
+       Using line charts and bar graphs to track vaccination rates and disease trends over time.
           
-      - Highlight regional variations in vaccination coverage and disease incidence.
+       Highlight regional variations in vaccination coverage and disease incidence.
           
-      - Analyze correlations between vaccination coverage and disease incidence across different countries or regions.
+       Analyze correlations between vaccination coverage and disease incidence across different countries or regions.
           
-      - Track progress toward vaccination and health targets.
+       Track progress toward vaccination and health targets.
  
   **5) Exploratory Data Analysis (EDA)**
           
-      - Analyze vaccination coverage, disease trends, and regional disparities using statistical summaries and correlation analysis.
+       Analyze vaccination coverage, disease trends, and regional disparities using statistical summaries and correlation analysis.
           
-      - Utilize visual analytics (e.g., bar charts, and trend lines) to uncover patterns, identify low-coverage areas, and evaluate the impact of immunization programs on disease reduction.
+       Utilize visual analytics (e.g., bar charts, and trend lines) to uncover patterns, identify low-coverage areas, and evaluate the impact of immunization programs on disease reduction.
 
 **Technical Tags Used**
 
